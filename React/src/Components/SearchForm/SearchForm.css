@@ -1,0 +1,37 @@
+@keyframes slideIn {
+    from {
+      transform: translateX(-50px);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  @keyframes slideOut {
+    from {
+      transform: translateX(100px);
+    }
+    to {
+      transform: translateX(0px);
+    }
+    
+  }
+
+    @media (max-width: 768px) {
+      .SearchForm {
+        all: initial !important;
+        display: grid !important;
+        font-family: 'Gill Sans' !important;
+       grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)) !important;
+
+      }
+    }
+  
+  .animate-in {
+    animation: slideIn 0.5s;
+  }
+
+  .animate-out {
+    animation: slideOut 0.5s;
+  }
+  
+ 

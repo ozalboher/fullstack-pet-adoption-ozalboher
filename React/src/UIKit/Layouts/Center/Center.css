@@ -1,0 +1,7 @@
+.Center{
+  display: flex;
+  align-items: Center; /* Align items to the top */
+  justify-content: center;
+  gap: var(--gap-xs);
+  height: 100%;
+}

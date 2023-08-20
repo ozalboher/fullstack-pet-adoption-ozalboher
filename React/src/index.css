@@ -1,0 +1,17 @@
+:root {
+    --font-family: 'Phudu', sans-serif;
+    --gap: 20px;
+    --gap-s: 10px;
+    --gap-xs: 5px;
+    --gap-m: 15px;
+    --primary: #cbc8c8;
+    --header-color: #333;
+    --light-cream: #f8f1e5;
+    --brownish:rgb(120, 109, 77);
+    --btn: #645837;
+    --brownish-text:rgb(79, 73, 51);
+    --gray: #ddd;
+    --white: #fff;
+    --valid: green;
+    --error: red;
+}

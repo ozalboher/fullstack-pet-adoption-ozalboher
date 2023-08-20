@@ -1,0 +1,5 @@
+.Line {
+    display: flex;
+    gap: var(--gap-m);
+    align-items: center;
+}

@@ -1,0 +1,6 @@
+.CenterUp{
+    display: flex;
+    align-items: flex-start; /* Align items to the top */
+    justify-content: center;
+    gap: var(--gap-xs);
+}

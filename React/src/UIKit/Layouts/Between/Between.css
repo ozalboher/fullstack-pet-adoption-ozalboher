@@ -1,0 +1,13 @@
+.Between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Between.spread {
+    gap: 10px;
+}
+
+.Between.spread>:nth-child(1) {
+    flex: 1;
+}

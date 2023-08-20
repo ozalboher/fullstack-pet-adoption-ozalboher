@@ -1,0 +1,9 @@
+
+.MyPetsPage-line{
+    position: relative;
+    height: 8px;
+    border-radius: 20px;
+    width: 60%;
+    background-color: #625223c6;
+    box-shadow: rgba(0, 0, 0, 0.215) 1px 1px 5px; 
+}

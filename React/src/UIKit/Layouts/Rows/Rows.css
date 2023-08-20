@@ -1,0 +1,6 @@
+.Rows {
+    display: flex;
+    gap: var(--gap);
+
+    flex-direction: column;
+}

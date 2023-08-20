@@ -1,0 +1,20 @@
+.btn-wrap {
+    display: inline-block;
+  }
+  
+  .Btn {
+    background-color: #645837;
+    margin-top: 16px;
+    font-size: 20px;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: ease-out  0.1s;
+  }
+  .Btn:hover {
+    background-color: #433b25;
+    cursor: pointer;
+
+  }

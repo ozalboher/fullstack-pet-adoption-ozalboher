@@ -1,0 +1,5 @@
+.search-title{
+    font-family:var(--font-family) ;
+    font-size: 40px;
+    color: var(--brownish-text);
+}

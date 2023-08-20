@@ -1,0 +1,38 @@
+[
+  {
+    "id": "61ca02ae-8b3c-4526-94c8-6a7e3a861eeb",
+    "email": "s@s.com",
+    "firstName": "o",
+    "lastName": "a",
+    "password": "$2b$10$GcMtQ0Aqq6moo5B66Dru/uCbkgPpSUp4I92G/GyCpm6Z7DoG42vqO",
+    "phoneNumber": "1111111111",
+    "role": "user"
+  },
+  {
+    "id": "00d55c74-d0a1-4715-b53d-6f27b9142070",
+    "email": "w@w.com",
+    "firstName": "Dan",
+    "lastName": "Brown",
+    "password": "$2b$10$zSgmOwvlWHF9atGptAW5gOOraQJ9RW0D8E2Z6eXOoGysOItRxqWnC",
+    "phoneNumber": "1111111111",
+    "role": "user"
+  },
+  {
+    "id": "d26b01a7-5026-4e91-9be4-8381eecee2c4",
+    "email": "w@ww.com",
+    "firstName": "Dan",
+    "lastName": "Brown",
+    "password": "$2b$10$jGnw79IwIB//wuHmWFXA.uN8LWnjKcoc/NDQCvjaCyNq2djsCVdgW",
+    "phoneNumber": "1111111111",
+    "role": "user"
+  },
+  {
+    "id": "3b86ea89-7730-4919-a607-e87d787b9beb",
+    "email": "sfd@sdf.com",
+    "firstName": "asd",
+    "lastName": "asd",
+    "password": "$2b$10$t14rZH7v3Rhu21i/YqYTkO76BjImeotWw2bx1C.XQk/uhvSsmLLP6",
+    "phoneNumber": "1111111111",
+    "role": "user"
+  }
+]

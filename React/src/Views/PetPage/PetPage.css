@@ -1,0 +1,106 @@
+.PetPage-item-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.PetPage-item {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s;
+  background-color: #ffffff7c;
+}
+
+.PetPage-item-image {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);   
+}
+
+.PetPage-item-content {
+  padding: 16px;
+}
+
+.PetPage-item-type {
+  margin-top: 0;
+  margin-bottom: 8px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.PetPage-item-txt-grey {
+  margin: 0;
+  font-size: 14px;
+  color: #888;
+}
+.PetPage-btn-wrap{
+  display: flex;
+  justify-content: space-between;
+}
+.PetPage-btn.back-btn{
+  padding: 8px 16px;
+  margin: 0px;
+  background-color: var(--brownish);
+  color: #fffdfd;
+  border: none;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.PetPage-btn {
+  padding: 8px 16px;
+  margin-left: 6px;
+  margin-top: 16px;
+  background-color: rgb(75, 55, 21);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.PetPage-btn.disable{
+  background-color: rgb(179, 177, 175);
+  cursor: not-allowed;
+}
+.PetPage-btn.adopt{
+  background-color: rgb(148, 98, 49);
+}
+.PetPage-btn.foster{
+  background-color: rgb(145, 111, 53);
+}
+.PetPage-btn.return{
+  background-color: rgb(104, 62, 52);
+}
+
+
+.PetPage-btn:not(.disable):hover {
+  background-color: rgb(24, 18, 7);
+}
+
+.PetPage-line {
+  position: relative;
+  height: 1px;
+  width: 100%;
+  margin: 36px 0;
+  background-color: #d4d4d4;
+}
+.PetPage-line::before {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: var(--light-cream);
+  color: #8b8b8b;
+  padding: 0 15px;
+}
