@@ -37,8 +37,8 @@ This full stack pet adoption platform aims to provide a seamless experience for 
 Ensure you have the following prerequisites before setting up the project:
 
 - Node.js and npm
-- React npm package
-- Install all packages in package.json (npm install)
+- React npm packages
+- Install all packages in React/package.json & nodeJS/package.json (npm install)
 - MySQL Server
 
 ## Installation
@@ -61,11 +61,29 @@ Follow these steps to set up the project:
     ? DB_PASS=your_db_password
     ? DB_NAME=your_db_name
 
-4. Run the project:
-    ```sh
-    npm start
+4. Create a database in MySQL Server with the name you specified in the .env file.
+5. To Import the database schema+tables from the pets_db folder run the following commands:
+    ```sql
+    mysql - u username -p 
+    /connect local@host 
+    CREATE DATABASE pets;
+    USE pets;
+    SOURCE db_pets/pets_pets.sql
+    SOURCE db_pets/pets_saved_pets.sql
+    SOURCE db_pets/pets_users.sql
+    SOURCE db_pets/pets_ownership.sql
     ```
-5. Open http://localhost:3000 to view it in the browser.
+
+5. Run the project:
+From the root directory of react folder
+    ```sh
+    npm start   
+    ```
+From the root directory of nodeJS folder
+    ```sh
+    node app  
+    ```
+6. Open http://localhost:3000 to view it in the browser.
 
 ## Technologies Used
 
