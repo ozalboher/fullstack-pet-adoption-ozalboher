@@ -25,7 +25,6 @@ route.post('/login', validateSchema(authLoginSchema), async (req, res) => {
     bcrypt.compare(password, user.password, function (err, valid) {
         // result == true
         if (valid) {
-            
             const data = { id: user.id };
             const token = sign(data);
 

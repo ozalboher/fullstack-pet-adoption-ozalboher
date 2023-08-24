@@ -1,5 +1,6 @@
 const USER_ID = 'user_id';
 
+
 export const getStorageUser = () =>{
     return localStorage.getItem(USER_ID); // if no user is logged in, it will return null(which means there is nothing under the key user_id inside the local storage)
 }
